@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* bg-image-and-intro style */
+
+.header{
+    height: 750px;
+    background-image: url('../images/banner/banner2.png') ;
+   background-size: 100%;
+ 
+    background-color: black;
+    
+}
+#intro-box{
+    display: flex;
+    padding: 216px 230px 365px 845px;
+    text-align: right;
+    
+    }
+
+#intro-title{
+    
+    font-weight: 700px;
+font-size: 65px;
+
+
+}
+#intro-discription{
+    
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+   
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 600;
+font-size: 20px;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+}
+
+
+/* body image box */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.failure{
+margin: 130px 100px;
+display:flex ;
+align-items: center;
+background-color:bisque;
+
+}
+
+#box-image{
+   gap: 90px;
+}
+
+.box-title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+}
+.box-title-discrip{
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.point1{
+   margin-bottom: 8px;
+   color: #444343;
+}
+.resolutions{
+    padding: 30px;
+}
+.reso-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* resolution */
+.new-year-resolution{
+    margin: 130px 100px;
+align-items: center;
+background-color:wheat;
+}
+
+
+
+/* my plan box  */
+
+.my-plan{
+    margin-bottom: 130px;
+}
+
+.my-plan-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+text-align: center;
+margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    gap: 130px;
+}
+.plan{
+    background: #FFFFFF;
+    padding: 20px;
+}
+.plan-title{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+margin-top: 50px;
+
+}
+.plan-discrip{
+    font-weight: 500;
+font-size: 25px;
+margin-top: 30px;
+}
+
+/* watch blend */
+
+.watch{
+    height: 300px;
+    background: url('../images/watch.png'),url('../images/gradient1.png');
+    background-color:black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.watch-title{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+padding: 50px;
+margin: 50px 600px 150px 60px;
+}
+.btn-call{
+    height: 64px;
+    border-radius: 5px;
+    background: gray;
+    font-weight: 600;
+font-size: 20px;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    margin-top: 30px;
+}
+
+/* last part */
+
+.ending{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    padding:  130px 200px;
+}
+.ending-title1{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+margin-bottom: 20px;
+}
+.subtitle{
+    color: #FFFFFF;
+    
+    margin-bottom: 30px;
+}
+.ending-contact{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 30px;
+}
